@@ -1,6 +1,11 @@
 body{
     background-color: #010F1A;
 }
+
+:root {
+  --red-color: #ff0000;
+}
+
 .navbar::before {
     content: "";
     width: 100%;
@@ -152,7 +157,7 @@ body{
 
 .footer:before {
   content: "";
-  background: color-mix(in srgb, #06222b, transparent 20%);
+  background: color-mix(in srgb, #2b0606, transparent 20%);
   position: absolute;
   inset: 0;
 }
