@@ -157,7 +157,7 @@ body{
 
 .footer:before {
   content: "";
-  background: color-mix(in srgb, #2b0606, transparent 20%);
+  background: color-mix(in srgb, #191818, transparent 20%);
   position: absolute;
   inset: 0;
 }
